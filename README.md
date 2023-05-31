@@ -6,4 +6,4 @@ mi_primer_repo
 
 mi nombre es: Cristian Felipe Buitrago Rodriguez 🤔
 
-Mi nombre es Alexandra Zapata Cano
+Mi nombre es Alexandra Zapata Cano :
