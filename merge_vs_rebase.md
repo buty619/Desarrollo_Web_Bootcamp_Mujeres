@@ -18,6 +18,14 @@ Para fusionar los cambios de la rama "feature" en la rama "main", utiliza el com
 Ahora los cambios de la rama "feature" se han incorporado a la rama "main".
 ```
 
+```
+       A---B---C feature
+      /
+--1--2--3--4--5 main
+            \
+             6 merge
+```
+
 ## Rebase (Reorganización)
 El comando `git rebase` se utiliza para reorganizar la historia de los commits en una rama. En lugar de fusionar los cambios, el rebase mueve los commits de una rama a otra, lo que puede proporcionar una historia más lineal y fácil de entender.
 
@@ -38,6 +46,13 @@ Para reorganizar la historia de la rama "feature" sobre la rama "main", utiliza 
 6. Fusiona la rama "feature" en "main" (opcional): `git merge feature`
 
 Ahora la historia de la rama "feature" se ha reorganizado y se ha colocado sobre la historia de la rama "main".
+```
+Después de ejecutar estos comandos, los cambios de la rama feature se aplicarán uno por uno sobre la rama main, creando una nueva secuencia de confirmaciones:
+
+```
+                   A'--B'--C' feature
+                  /
+--1--2--3--4--5 main
 ```
 
 Recuerda que es importante tener cuidado al utilizar el rebase, ya que puede cambiar la historia de los commits y puede causar problemas si la rama ya ha sido compartida con otros colaboradores.
