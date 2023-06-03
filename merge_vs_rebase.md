@@ -56,3 +56,20 @@ Después de ejecutar estos comandos, los cambios de la rama feature se aplicará
 ```
 
 Recuerda que es importante tener cuidado al utilizar el rebase, ya que puede cambiar la historia de los commits y puede causar problemas si la rama ya ha sido compartida con otros colaboradores.
+
+## merge vs rebase
+
+```
+Main:  A->B->C
+NuevaRama  A->1->2->3
+
+Rebase:
+              A->1->2->3->B-C
+
+
+Main:  A->B->C
+NuevaRama  A->1->2->3
+
+Merge: 
+           A->B->C->D(1->2->3)
+```
