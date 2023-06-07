@@ -14,3 +14,4 @@ mi nombre es: Juvisa La Valle
 mi nombre es: Paula Rodriguez
 Mi nombre es: Kathereen González Ríos
 Mi nombre es: Sandra Vega
+Mi nombre es : Claudia Gaitan
