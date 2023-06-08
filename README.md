@@ -12,6 +12,7 @@ mi nombre es: Jessica Paniagua
 mi nombre es: Maria Teresa.
 mi nombre es: Juvisa La Valle
 mi nombre es: Paula Rodriguez
+mi nombre es: Mara Cruz
 Mi nombre es: Kathereen González Ríos
 Mi nombre es: Sandra Vega
 Mi nombre es : Claudia Gaitan
